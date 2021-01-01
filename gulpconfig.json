@@ -1,0 +1,34 @@
+{
+    "paths": {
+        "scssSrc": "src/scss/",
+        "cssSrc": "src/css/",
+        "cssDest": "dist/css/",
+        "jsSrc": "src/js/",
+        "jsDest": "dist/js/",
+        "imgSrc": "src/img/",
+        "imgDest": "dist/img/",
+        "fontSrc": "src/font/",
+        "fontDest": "dist/font/",
+        "pugSrc": "src/pug/",
+        "pugDest": "dist/",
+        "node": "node_modules/"
+    },
+    "sassInclude": {
+        "normalize": "normalize-scss/sass/"
+    },
+    "bsOptionsPHP": {
+        "proxy": "localhost:8080",
+        "notify": false
+    },
+    "bsOptionsLocal": {
+        "server": {
+            "baseDir": "./dist"
+        }
+    },
+    "WatchFiles": [
+        "./dist/**/*.min.css",
+        "./dist/**/*.min.js",
+        "./**/*.php",
+        "./**/*.html"
+    ]
+}
